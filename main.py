@@ -2,11 +2,11 @@ from tkinter import *
 from tkinter import ttk
 
 # cores
-cor1 = "#3b3b3b" # black
-cor2 = "#feffff" # white
-cor3 = "#38576b" # blue
-cor4 = "#ECEFF1" # gray
-cor5 = "#FFAB40" # orange
+cor1 = "#3b3b3b"  # black
+cor2 = "#feffff"  # white
+cor3 = "#38576b"  # blue
+cor4 = "#ECEFF1"  # gray
+cor5 = "#FFAB40"  # orange
 
 janela = Tk()
 janela.title("Calculadora")
@@ -31,9 +31,14 @@ b_3 = Button(frame_corpo, text="/", width=5, height=2, bg=cor5, fg=cor2, font=('
 b_3.place(x=177, y=0)
 
 
-
-
-
+b_4 = Button(frame_corpo, text="7", width=5, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_4.place(x=0, y=52)
+b_4 = Button(frame_corpo, text="8", width=5, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_4.place(x=59, y=52)
+b_4 = Button(frame_corpo, text="9", width=5, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_4.place(x=118, y=52)
+b_3 = Button(frame_corpo, text="*", width=5, height=2, bg=cor5, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_3.place(x=177, y=52)
 
 
 janela.mainloop()
